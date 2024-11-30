@@ -43,6 +43,11 @@ The logic in the `percentualVotos` method for calculating vote percentages was i
   4. Menu Functionality
 The menu options were being displayed repeatedly due to the absence of a break statement at the end of each case in the switch structure.
 
+4. Menu Functionality
+The menu options were being displayed repeatedly due to the absence of a break statement at the end of each case in the switch structure.
+
+Adding the break statements ensures that only the selected option is executed, and subsequent cases do not run unintentionally.
+
 Adding the break statements ensures that only the selected option is executed, and subsequent cases do not run unintentionally.
 Corrected Code
 The corrected code for the voting system is available in this repository.
