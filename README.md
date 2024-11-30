@@ -40,7 +40,8 @@ The logic in the `percentualVotos` method for calculating vote percentages was i
 - The fixed logic calculates the percentage correctly by iterating through all candidates, accessing their vote count, multiplying by `100`, and dividing by the total votes. The corrected line is:
   ```c
   float percentual = (candidatos[i].votos * 100) / totalVotos;
-  4. Menu Functionality
+
+4. Menu Functionality
 The menu options were being displayed repeatedly due to the absence of a break statement at the end of each case in the switch structure.
 
 4. Menu Functionality
